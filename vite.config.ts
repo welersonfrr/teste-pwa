@@ -12,6 +12,9 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
       },
+      devOptions: {
+        enabled: true,
+      },
       manifest: {
         name: "My Awesome App",
         short_name: "MyApp",
@@ -20,6 +23,7 @@ export default defineConfig({
         background_color: "#ffffff",
         scope: "/",
         start_url: "/",
+
         icons: [
           {
             src: "icons/manifest-icon-192.maskable.png",
