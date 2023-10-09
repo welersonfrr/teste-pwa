@@ -17,6 +17,9 @@ export default defineConfig({
         short_name: "MyApp",
         description: "My Awesome App description",
         theme_color: "#ffffff",
+        background_color: "#ffffff",
+        scope: "/",
+        start_url: "/",
         icons: [
           {
             src: "icons/manifest-icon-192.maskable.png",
