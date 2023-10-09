@@ -23,28 +23,27 @@ export default defineConfig({
         background_color: "#ffffff",
         scope: "/",
         start_url: "/",
-
         icons: [
           {
-            src: "src/assets/icons/manifest-icon-192.maskable.png",
+            src: "public/icons/manifest-icon-192.maskable.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "any",
           },
           {
-            src: "src/assets/icons/manifest-icon-192.maskable.png",
+            src: "public/icons/manifest-icon-192.maskable.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "maskable",
           },
           {
-            src: "src/assets/icons/manifest-icon-512.maskable.png",
+            src: "public/icons/manifest-icon-512.maskable.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any",
           },
           {
-            src: "src/assets/icons/manifest-icon-512.maskable.png",
+            src: "public/icons/manifest-icon-512.maskable.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable",
